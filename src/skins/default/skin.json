@@ -1,0 +1,50 @@
+{
+  "canvas": {
+    "width": 1200,
+    "height": 500
+  },
+  "sprites": {
+    "digitStrip": {
+      "kind": "strip",
+      "image": "12015.jpg",
+      "x": 0,
+      "y": 0,
+      "frameW": 10,
+      "frameH": 16,
+      "frames": 10,
+      "direction": "h"
+    }
+  },
+  "controls": [
+    {
+      "id": "digit-1",
+      "type": "stripFrame",
+      "spriteKey": "digitStrip",
+      "x": 40,
+      "y": 40,
+      "w": 10,
+      "h": 16,
+      "frameIndex": 1
+    },
+    {
+      "id": "digit-2",
+      "type": "stripFrame",
+      "spriteKey": "digitStrip",
+      "x": 60,
+      "y": 40,
+      "w": 10,
+      "h": 16,
+      "frameIndex": 2
+    },
+    {
+      "id": "digit-3",
+      "type": "stripFrame",
+      "spriteKey": "digitStrip",
+      "x": 80,
+      "y": 40,
+      "w": 10,
+      "h": 16,
+      "frameIndex": 3
+    }
+  ]
+}

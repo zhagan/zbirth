@@ -1,0 +1,3811 @@
+{
+  "canvas": {
+    "width": 800,
+    "height": 600,
+    "background": "RMBH.png"
+  },
+  "sprites": {
+    "DM909Bg": {
+      "kind": "rect",
+      "image": "12564.jpg",
+      "sx": 0,
+      "sy": 0,
+      "sw": 365,
+      "sh": 115
+    },
+    "DM808Bg": {
+      "kind": "rect",
+      "image": "12520.jpg",
+      "sx": 0,
+      "sy": 0,
+      "sw": 366,
+      "sh": 115
+    },
+    "S303Bg": {
+      "kind": "rect",
+      "image": "12500.jpg",
+      "sx": 0,
+      "sy": 0,
+      "sw": 366,
+      "sh": 115
+    },
+    "FxCompBg": {
+      "kind": "rect",
+      "image": "12569.jpg",
+      "sx": 0,
+      "sy": 0,
+      "sw": 82,
+      "sh": 93
+    },
+    "FxDelayBg": {
+      "kind": "rect",
+      "image": "12063.jpg",
+      "sx": 0,
+      "sy": 0,
+      "sw": 82,
+      "sh": 93
+    },
+    "FxPCFBg": {
+      "kind": "rect",
+      "image": "12064.jpg",
+      "sx": 0,
+      "sy": 0,
+      "sw": 82,
+      "sh": 111
+    },
+    "FxDistBg": {
+      "kind": "rect",
+      "image": "12065.jpg",
+      "sx": 0,
+      "sy": 0,
+      "sw": 82,
+      "sh": 65
+    },
+    "sideBg": {
+      "kind": "rect",
+      "image": "12062.jpg",
+      "sx": 0,
+      "sy": 0,
+      "sw": 16,
+      "sh": 510
+    },
+    "HeaderBg": {
+      "kind": "rect",
+      "image": "12057.jpg",
+      "sx": 0,
+      "sy": 0,
+      "sw": 592,
+      "sh": 50
+    },
+    "PatternBg": {
+      "kind": "rect",
+      "image": "12058.jpg",
+      "sx": 0,
+      "sy": 0,
+      "sw": 70,
+      "sh": 115
+    },
+    "MixBg": {
+      "kind": "rect",
+      "image": "12060.jpg",
+      "sx": 0,
+      "sy": 0,
+      "sw": 70,
+      "sh": 115
+    },
+    "MasterOutBg": {
+      "kind": "rect",
+      "image": "12061.jpg",
+      "sx": 0,
+      "sy": 0,
+      "sw": 82,
+      "sh": 98
+    },
+    "digitStrip": {
+      "kind": "strip",
+      "image": "12015.jpg",
+      "x": 0,
+      "y": 0,
+      "frameW": 9,
+      "frameH": 16,
+      "frames": 10,
+      "direction": "h"
+    },
+    "knob31": {
+      "kind": "strip",
+      "image": "12552.jpg",
+      "x": 0,
+      "y": 0,
+      "frameW": 19,
+      "frameH": 19,
+      "frames": 32,
+      "direction": "h"
+    },
+    "patternSelect": {
+      "kind": "strip",
+      "image": "12554.jpg",
+      "x": 0,
+      "y": 0,
+      "frameW": 68,
+      "frameH": 36,
+      "frameGapY": 10,
+      "frames": 9,
+      "direction": "v"
+    },
+    "bankSelect": {
+      "kind": "strip",
+      "image": "12555.jpg",
+      "x": 0,
+      "y": 0,
+      "frameW": 68,
+      "frameH": 30,
+      "frameGapY": 10,
+      "frames": 4,
+      "direction": "v"
+    },
+    "shuffleSelect": {
+      "kind": "strip",
+      "image": "12571.jpg",
+      "x": 0,
+      "y": 0,
+      "frameW": 18,
+      "frameH": 20,
+      "frames": 2,
+      "direction": "h"
+    },
+    "play": {
+      "kind": "strip",
+      "image": "12559.jpg",
+      "x": 0,
+      "y": 0,
+      "frameW": 32,
+      "frameH": 25,
+      "frames": 2,
+      "direction": "h"
+    },
+    "stop": {
+      "kind": "strip",
+      "image": "12560.jpg",
+      "x": 0,
+      "y": 0,
+      "frameW": 32,
+      "frameH": 25,
+      "frames": 2,
+      "direction": "h"
+    },
+    "rewind": {
+      "kind": "strip",
+      "image": "12561.jpg",
+      "x": 0,
+      "y": 0,
+      "frameW": 32,
+      "frameH": 25,
+      "frames": 2,
+      "direction": "h"
+    },
+    "fastforward": {
+      "kind": "strip",
+      "image": "12562.jpg",
+      "x": 0,
+      "y": 0,
+      "frameW": 32,
+      "frameH": 25,
+      "frames": 2,
+      "direction": "h"
+    },
+    "record": {
+      "kind": "strip",
+      "image": "12563.jpg",
+      "x": 0,
+      "y": 0,
+      "frameW": 32,
+      "frameH": 25,
+      "frames": 2,
+      "direction": "h"
+    },
+    "btnRedGreenWide": {
+      "kind": "strip",
+      "image": "12016.jpg",
+      "x": 0,
+      "y": 0,
+      "frameW": 26,
+      "frameH": 19,
+      "frames": 2,
+      "direction": "h"
+    },
+    "btnSmall2State": {
+      "kind": "strip",
+      "image": "12017.jpg",
+      "x": 0,
+      "y": 0,
+      "frameW": 9,
+      "frameH": 18,
+      "frames": 2,
+      "direction": "h"
+    },
+    "arrowPairUp": {
+      "kind": "strip",
+      "image": "12019.jpg",
+      "x": 0,
+      "y": 0,
+      "frameW": 11,
+      "frameH": 9,
+      "frames": 2,
+      "direction": "h"
+    },
+    "arrowPairDown": {
+      "kind": "strip",
+      "image": "12020.jpg",
+      "x": 0,
+      "y": 0,
+      "frameW": 11,
+      "frameH": 9,
+      "frames": 2,
+      "direction": "h"
+    },
+    "faderBgBrown": {
+      "kind": "rect",
+      "image": "12030.jpg",
+      "sx": 0,
+      "sy": 0,
+      "sw": 15,
+      "sh": 45
+    },
+    "faderHandleStatic": {
+      "kind": "rect",
+      "image": "12031.jpg",
+      "sx": 0,
+      "sy": 0,
+      "sw": 15,
+      "sh": 11
+    },
+    "faderBgBlue": {
+      "kind": "rect",
+      "image": "12032.jpg",
+      "sx": 0,
+      "sy": 0,
+      "sw": 15,
+      "sh": 54
+    },
+    "btnFX": {
+      "kind": "strip",
+      "image": "12040.jpg",
+      "x": 0,
+      "y": 0,
+      "frameW": 24,
+      "frameH": 11,
+      "frames": 2,
+      "direction": "h"
+    },
+    "btnSteps3State": {
+      "kind": "strip",
+      "image": "12041.jpg",
+      "x": 0,
+      "y": 0,
+      "frameW": 11,
+      "frameH": 11,
+      "frames": 3,
+      "direction": "h"
+    },
+    "S303btn": {
+      "kind": "strip",
+      "image": "12501.jpg",
+      "x": 0,
+      "y": 0,
+      "frameW": 9,
+      "frameH": 16,
+      "frames": 2,
+      "direction": "h"
+    },
+    "S303btnWide": {
+      "kind": "strip",
+      "image": "12502.jpg",
+      "x": 0,
+      "y": 0,
+      "frameW": 15,
+      "frameH": 10,
+      "frames": 2,
+      "direction": "h"
+    },
+    "S303btnBig": {
+      "kind": "strip",
+      "image": "12503.jpg",
+      "x": 0,
+      "y": 0,
+      "frameW": 25,
+      "frameH": 17,
+      "frames": 2,
+      "direction": "h"
+    },
+    "S303tgl": {
+      "kind": "strip",
+      "image": "12504.jpg",
+      "x": 0,
+      "y": 0,
+      "frameW": 16,
+      "frameH": 12,
+      "frames": 2,
+      "direction": "h"
+    },
+    "S303lightWhite": {
+      "kind": "strip",
+      "image": "12505.jpg",
+      "x": 0,
+      "y": 0,
+      "frameW": 8,
+      "frameH": 8,
+      "frames": 2,
+      "direction": "h"
+    },
+    "S303lightBlack": {
+      "kind": "strip",
+      "image": "12506.jpg",
+      "x": 0,
+      "y": 0,
+      "frameW": 8,
+      "frameH": 8,
+      "frames": 2,
+      "direction": "h"
+    },
+    "S303knob54": {
+      "kind": "strip",
+      "image": "12507.jpg",
+      "x": 0,
+      "y": 0,
+      "frameW": 31,
+      "frameH": 30,
+      "frames": 54,
+      "direction": "h"
+    },
+    "S303btnH": {
+      "kind": "strip",
+      "image": "12509.jpg",
+      "x": 0,
+      "y": 0,
+      "frameW": 8,
+      "frameH": 16,
+      "frames": 2,
+      "direction": "h"
+    },
+    "S303btnV": {
+      "kind": "strip",
+      "image": "12510.jpg",
+      "x": 0,
+      "y": 0,
+      "frameW": 15,
+      "frameH": 8,
+      "frames": 2,
+      "direction": "h"
+    },
+    "toggleBtn": {
+      "kind": "strip",
+      "image": "12066.jpg",
+      "x": 0,
+      "y": 0,
+      "frameW": 16,
+      "frameH": 16,
+      "frames": 2,
+      "direction": "h"
+    },
+    "toggleBtn_1": {
+      "kind": "strip",
+      "image": "12550.jpg",
+      "x": 0,
+      "y": 0,
+      "frameW": 16,
+      "frameH": 16,
+      "frames": 2,
+      "direction": "h"
+    },
+    "meterTall": {
+      "kind": "strip",
+      "image": "12557.jpg",
+      "x": 0,
+      "y": 0,
+      "frameW": 15,
+      "frameH": 56,
+      "frameGapY": 14,
+      "frames": 11,
+      "direction": "v"
+    },
+    "meterSm": {
+      "kind": "strip",
+      "image": "12558.jpg",
+      "x": 0,
+      "y": 0,
+      "frameW": 11,
+      "frameH": 15,
+      "frames": 4,
+      "direction": "h"
+    },
+    "deviceFocus": {
+      "kind": "strip",
+      "image": "12068.jpg",
+      "x": 0,
+      "y": 0,
+      "frameW": 4,
+      "frameH": 115,
+      "frames": 2,
+      "direction": "h"
+    },
+    "DM808Knob36": {
+      "kind": "strip",
+      "image": "12521.jpg",
+      "x": 0,
+      "y": 0,
+      "frameW": 13,
+      "frameH": 13,
+      "frames": 36,
+      "direction": "h"
+    },
+    "DM808Knob236": {
+      "kind": "strip",
+      "image": "12522.jpg",
+      "x": 0,
+      "y": 0,
+      "frameW": 13,
+      "frameH": 13,
+      "frames": 36,
+      "direction": "h"
+    },
+    "DM808tgl": {
+      "kind": "strip",
+      "image": "12523.jpg",
+      "x": 0,
+      "y": 0,
+      "frameW": 11,
+      "frameH": 17,
+      "frames": 2,
+      "direction": "h"
+    },
+    "DM808Light": {
+      "kind": "strip",
+      "image": "12524.jpg",
+      "x": 0,
+      "y": 0,
+      "frameW": 11,
+      "frameGapX": 1,
+      "frameH": 5,
+      "frames": 4,
+      "direction": "h"
+    },
+    "DM808Knob12": {
+      "kind": "strip",
+      "image": "12525.jpg",
+      "x": 0,
+      "y": 0,
+      "frameW": 29,
+      "frameGapX": 1,
+      "frameH": 31,
+      "frames": 12,
+      "direction": "h"
+    },
+    "DM909Knob41": {
+      "kind": "strip",
+      "image": "12565.jpg",
+      "x": 0,
+      "y": 0,
+      "frameW": 12,
+      "frameH": 12,
+      "frames": 41,
+      "direction": "h"
+    },
+    "DM909light": {
+      "kind": "strip",
+      "image": "12566.jpg",
+      "x": 0,
+      "y": 0,
+      "frameW": 14,
+      "frameGapX": 1,
+      "frameH": 8,
+      "frames": 4,
+      "direction": "h"
+    },
+    "DM909light_1": {
+      "kind": "rect",
+      "image": "12567.jpg",
+      "sx": 0,
+      "sy": 0,
+      "sw": 6,
+      "sh": 6
+    },
+    "DM909btn": {
+      "kind": "strip",
+      "image": "12568.jpg",
+      "x": 0,
+      "y": 0,
+      "frameW": 14,
+      "frameGapX": 1,
+      "frameH": 14,
+      "frames": 2,
+      "direction": "h"
+    }
+  },
+  "controls": [
+    {
+      "id": "sideBg",
+      "type": "sprite",
+      "spriteKey": "sideBg",
+      "x": 0,
+      "y": 0,
+      "w": 16,
+      "h": 510,
+      "hidden": false
+    },
+    {
+      "id": "sideBg_1",
+      "type": "sprite",
+      "spriteKey": "sideBg",
+      "x": 609,
+      "y": 0,
+      "w": 16,
+      "h": 510
+    },
+    {
+      "id": "DM808Bg",
+      "type": "sprite",
+      "spriteKey": "DM808Bg",
+      "x": 89,
+      "y": 278,
+      "w": 366,
+      "h": 115
+    },
+    {
+      "id": "DM909Bg",
+      "type": "sprite",
+      "spriteKey": "DM909Bg",
+      "x": 90,
+      "y": 393,
+      "w": 365,
+      "h": 115,
+      "hidden": false
+    },
+    {
+      "id": "FxCompBg",
+      "type": "sprite",
+      "spriteKey": "FxCompBg",
+      "x": 525,
+      "y": 415,
+      "w": 82,
+      "h": 93,
+      "hidden": false
+    },
+    {
+      "id": "FxDelayBg",
+      "type": "sprite",
+      "spriteKey": "FxDelayBg",
+      "x": 525,
+      "y": 258,
+      "w": 82,
+      "h": 93,
+      "hidden": false
+    },
+    {
+      "id": "FxDistBg",
+      "type": "sprite",
+      "spriteKey": "FxDistBg",
+      "x": 525,
+      "y": 350,
+      "w": 82,
+      "h": 65,
+      "hidden": false
+    },
+    {
+      "id": "FxPCFBg",
+      "type": "sprite",
+      "spriteKey": "FxPCFBg",
+      "x": 525,
+      "y": 147,
+      "w": 82,
+      "h": 111,
+      "hidden": false
+    },
+    {
+      "id": "HeaderBg",
+      "type": "sprite",
+      "spriteKey": "HeaderBg",
+      "x": 16,
+      "y": 0,
+      "w": 592,
+      "h": 50,
+      "frameIndex": 0,
+      "hidden": false
+    },
+    {
+      "id": "MasterOutBg",
+      "type": "sprite",
+      "spriteKey": "MasterOutBg",
+      "x": 525,
+      "y": 50,
+      "w": 82,
+      "h": 98,
+      "hidden": false
+    },
+    {
+      "id": "MixBg",
+      "type": "sprite",
+      "spriteKey": "MixBg",
+      "x": 455,
+      "y": 50,
+      "w": 70,
+      "h": 115,
+      "hidden": false
+    },
+    {
+      "id": "MixBg_1",
+      "type": "sprite",
+      "spriteKey": "MixBg",
+      "x": 455,
+      "y": 164,
+      "w": 70,
+      "h": 115,
+      "hidden": false
+    },
+    {
+      "id": "MixBg_2",
+      "type": "sprite",
+      "spriteKey": "MixBg",
+      "x": 455,
+      "y": 279,
+      "w": 70,
+      "h": 115,
+      "hidden": false
+    },
+    {
+      "id": "MixBg_3",
+      "type": "sprite",
+      "spriteKey": "MixBg",
+      "x": 455,
+      "y": 393,
+      "w": 70,
+      "h": 115,
+      "hidden": false
+    },
+    {
+      "id": "PatternBg",
+      "type": "sprite",
+      "spriteKey": "PatternBg",
+      "x": 16,
+      "y": 48,
+      "w": 70,
+      "h": 115,
+      "hidden": false
+    },
+    {
+      "id": "PatternBg_1",
+      "type": "sprite",
+      "spriteKey": "PatternBg",
+      "x": 16,
+      "y": 163,
+      "w": 70,
+      "h": 115
+    },
+    {
+      "id": "PatternBg_2",
+      "type": "sprite",
+      "spriteKey": "PatternBg",
+      "x": 16,
+      "y": 278,
+      "w": 70,
+      "h": 115
+    },
+    {
+      "id": "PatternBg_3",
+      "type": "sprite",
+      "spriteKey": "PatternBg",
+      "x": 16,
+      "y": 393,
+      "w": 70,
+      "h": 115
+    },
+    {
+      "id": "S303Bg",
+      "type": "sprite",
+      "spriteKey": "S303Bg",
+      "x": 88,
+      "y": 50,
+      "w": 366,
+      "h": 115
+    },
+    {
+      "id": "S303Bg_1",
+      "type": "sprite",
+      "spriteKey": "S303Bg",
+      "x": 89,
+      "y": 163,
+      "w": 366,
+      "h": 115
+    },
+    {
+      "id": "pattern-song",
+      "type": "stripFrame",
+      "spriteKey": "btnRedGreenWide",
+      "x": 178,
+      "y": 2,
+      "w": 26,
+      "h": 19
+    },
+    {
+      "id": "loop",
+      "type": "stripFrame",
+      "spriteKey": "btnSmall2State",
+      "x": 335,
+      "y": 3,
+      "w": 9,
+      "h": 18
+    },
+    {
+      "id": "sync",
+      "type": "stripFrame",
+      "spriteKey": "btnSteps3State",
+      "x": 54,
+      "y": 2,
+      "w": 11,
+      "h": 11
+    },
+    {
+      "id": "master_meter_left",
+      "type": "stripFrame",
+      "spriteKey": "meterTall",
+      "x": 542,
+      "y": 73,
+      "w": 15,
+      "h": 56
+    },
+    {
+      "id": "digitStrip_S303_1_step_1",
+      "type": "stripFrame",
+      "spriteKey": "digitStrip",
+      "x": 418,
+      "y": 75,
+      "w": 10,
+      "h": 16
+    },
+    {
+      "id": "faderGreyStatic",
+      "type": "sprite",
+      "spriteKey": "faderGreyStatic",
+      "x": 35,
+      "y": 560,
+      "w": 15,
+      "h": 11
+    },
+    {
+      "id": "S303_1_key_C",
+      "type": "stripFrame",
+      "spriteKey": "S303btn",
+      "x": 141,
+      "y": 139,
+      "w": 9,
+      "h": 16
+    },
+    {
+      "id": "faderBgBlue_5",
+      "type": "sprite",
+      "spriteKey": "faderBgBlue",
+      "x": 559,
+      "y": 76,
+      "w": 15,
+      "h": 45
+    },
+    {
+      "id": "faderBgBlue_4",
+      "type": "sprite",
+      "spriteKey": "faderBgBlue",
+      "x": 465,
+      "y": 454,
+      "w": 15,
+      "h": 45
+    },
+    {
+      "id": "faderBgBlue_3",
+      "type": "sprite",
+      "spriteKey": "faderBgBlue",
+      "x": 465,
+      "y": 338,
+      "w": 15,
+      "h": 45
+    },
+    {
+      "id": "faderBgBlue_2",
+      "type": "sprite",
+      "spriteKey": "faderBgBlue",
+      "x": 466,
+      "y": 226,
+      "w": 15,
+      "h": 45
+    },
+    {
+      "id": "faderBgBlue_1",
+      "type": "sprite",
+      "spriteKey": "faderBgBlue",
+      "x": 466,
+      "y": 111,
+      "w": 15,
+      "h": 45
+    },
+    {
+      "id": "digitStrip_tempo_0",
+      "type": "stripFrame",
+      "spriteKey": "digitStrip",
+      "x": 79,
+      "y": 27,
+      "w": 10,
+      "h": 16
+    },
+    {
+      "id": "digitStrip_tempo_1",
+      "type": "stripFrame",
+      "spriteKey": "digitStrip",
+      "x": 69,
+      "y": 27,
+      "w": 10,
+      "h": 16
+    },
+    {
+      "id": "digitStrip_tempo_2",
+      "type": "stripFrame",
+      "spriteKey": "digitStrip",
+      "x": 59,
+      "y": 27,
+      "w": 10,
+      "h": 16
+    },
+    {
+      "id": "digitStrip_bar_0",
+      "type": "stripFrame",
+      "spriteKey": "digitStrip",
+      "x": 305,
+      "y": 27,
+      "w": 10,
+      "h": 16
+    },
+    {
+      "id": "digitStrip_bar_1",
+      "type": "stripFrame",
+      "spriteKey": "digitStrip",
+      "x": 295,
+      "y": 27,
+      "w": 10,
+      "h": 16
+    },
+    {
+      "id": "digitStrip_bar_2",
+      "type": "stripFrame",
+      "spriteKey": "digitStrip",
+      "x": 285,
+      "y": 27,
+      "w": 10,
+      "h": 16
+    },
+    {
+      "id": "digitStrip_start_0",
+      "type": "stripFrame",
+      "spriteKey": "digitStrip",
+      "x": 363,
+      "y": 27,
+      "w": 10,
+      "h": 16
+    },
+    {
+      "id": "digitStrip_start_1",
+      "type": "stripFrame",
+      "spriteKey": "digitStrip",
+      "x": 353,
+      "y": 27,
+      "w": 10,
+      "h": 16
+    },
+    {
+      "id": "digitStrip_start_2",
+      "type": "stripFrame",
+      "spriteKey": "digitStrip",
+      "x": 344,
+      "y": 27,
+      "w": 10,
+      "h": 16
+    },
+    {
+      "id": "digitStrip_length_0",
+      "type": "stripFrame",
+      "spriteKey": "digitStrip",
+      "x": 407,
+      "y": 27,
+      "w": 10,
+      "h": 16
+    },
+    {
+      "id": "digitStrip_length_1",
+      "type": "stripFrame",
+      "spriteKey": "digitStrip",
+      "x": 397,
+      "y": 27,
+      "w": 10,
+      "h": 16
+    },
+    {
+      "id": "digitStrip_length_2",
+      "type": "stripFrame",
+      "spriteKey": "digitStrip",
+      "x": 387,
+      "y": 27,
+      "w": 10,
+      "h": 16
+    },
+    {
+      "id": "shuffle",
+      "type": "stripFrame",
+      "spriteKey": "knob31",
+      "x": 26,
+      "y": 14,
+      "w": 19,
+      "h": 19
+    },
+    {
+      "id": "play",
+      "type": "stripFrame",
+      "spriteKey": "play",
+      "x": 114,
+      "y": 21,
+      "w": 32,
+      "h": 25,
+      "hidden": false
+    },
+    {
+      "id": "stop",
+      "type": "stripFrame",
+      "spriteKey": "stop",
+      "x": 146,
+      "y": 21,
+      "w": 32,
+      "h": 25
+    },
+    {
+      "id": "rewind",
+      "type": "stripFrame",
+      "spriteKey": "rewind",
+      "x": 178,
+      "y": 21,
+      "w": 32,
+      "h": 25
+    },
+    {
+      "id": "fastforward",
+      "type": "stripFrame",
+      "spriteKey": "fastforward",
+      "x": 208,
+      "y": 21,
+      "w": 32,
+      "h": 25
+    },
+    {
+      "id": "record",
+      "type": "stripFrame",
+      "spriteKey": "record",
+      "x": 241,
+      "y": 21,
+      "w": 32,
+      "h": 25
+    },
+    {
+      "id": "arrowPairUp_tempo",
+      "type": "stripFrame",
+      "spriteKey": "arrowPairUp",
+      "x": 90,
+      "y": 26,
+      "w": 11,
+      "h": 9
+    },
+    {
+      "id": "arrowPairUp_bar",
+      "type": "stripFrame",
+      "spriteKey": "arrowPairUp",
+      "x": 316,
+      "y": 25,
+      "w": 11,
+      "h": 9
+    },
+    {
+      "id": "arrowPairUp_start",
+      "type": "stripFrame",
+      "spriteKey": "arrowPairUp",
+      "x": 373,
+      "y": 26,
+      "w": 11,
+      "h": 9
+    },
+    {
+      "id": "arrowPairUp_length",
+      "type": "stripFrame",
+      "spriteKey": "arrowPairUp",
+      "x": 417,
+      "y": 25,
+      "w": 11,
+      "h": 9
+    },
+    {
+      "id": "arrowPairDown_tempo",
+      "type": "stripFrame",
+      "spriteKey": "arrowPairDown",
+      "x": 90,
+      "y": 34,
+      "w": 11,
+      "h": 9
+    },
+    {
+      "id": "arrowPairDown_bar",
+      "type": "stripFrame",
+      "spriteKey": "arrowPairDown",
+      "x": 316,
+      "y": 34,
+      "w": 11,
+      "h": 9
+    },
+    {
+      "id": "arrowPairDown_start",
+      "type": "stripFrame",
+      "spriteKey": "arrowPairDown",
+      "x": 373,
+      "y": 35,
+      "w": 11,
+      "h": 9
+    },
+    {
+      "id": "arrowPairDown_length",
+      "type": "stripFrame",
+      "spriteKey": "arrowPairDown",
+      "x": 417,
+      "y": 35,
+      "w": 11,
+      "h": 9
+    },
+    {
+      "id": "faderBgBrown_freq",
+      "type": "sprite",
+      "spriteKey": "faderBgBrown",
+      "x": 530,
+      "y": 203,
+      "w": 15,
+      "h": 45
+    },
+    {
+      "id": "faderBgBrown_q",
+      "type": "sprite",
+      "spriteKey": "faderBgBrown",
+      "x": 550,
+      "y": 203,
+      "w": 15,
+      "h": 45
+    },
+    {
+      "id": "faderBgBrown_amt",
+      "type": "sprite",
+      "spriteKey": "faderBgBrown",
+      "x": 569,
+      "y": 203,
+      "w": 15,
+      "h": 45
+    },
+    {
+      "id": "faderBgBrown_dec",
+      "type": "sprite",
+      "spriteKey": "faderBgBrown",
+      "x": 589,
+      "y": 203,
+      "w": 15,
+      "h": 45
+    },
+    {
+      "id": "patternSelect_4",
+      "type": "stripFrame",
+      "spriteKey": "patternSelect",
+      "x": 18,
+      "y": 409,
+      "w": 68,
+      "h": 36
+    },
+    {
+      "id": "patternSelect_3",
+      "type": "stripFrame",
+      "spriteKey": "patternSelect",
+      "x": 18,
+      "y": 292,
+      "w": 68,
+      "h": 36
+    },
+    {
+      "id": "patternSelect_2",
+      "type": "stripFrame",
+      "spriteKey": "patternSelect",
+      "x": 18,
+      "y": 181,
+      "w": 68,
+      "h": 36
+    },
+    {
+      "id": "patternSelect_1",
+      "type": "stripFrame",
+      "spriteKey": "patternSelect",
+      "x": 18,
+      "y": 66,
+      "w": 68,
+      "h": 36
+    },
+    {
+      "id": "shuffleSelect_1",
+      "type": "stripFrame",
+      "spriteKey": "shuffleSelect",
+      "x": 20,
+      "y": 145,
+      "w": 18,
+      "h": 20
+    },
+    {
+      "id": "shuffleSelect_2",
+      "type": "stripFrame",
+      "spriteKey": "shuffleSelect",
+      "x": 20,
+      "y": 257,
+      "w": 18,
+      "h": 20
+    },
+    {
+      "id": "shuffleSelect_3",
+      "type": "stripFrame",
+      "spriteKey": "shuffleSelect",
+      "x": 20,
+      "y": 374,
+      "w": 18,
+      "h": 20
+    },
+    {
+      "id": "shuffleSelect_4",
+      "type": "stripFrame",
+      "spriteKey": "shuffleSelect",
+      "x": 21,
+      "y": 488,
+      "w": 18,
+      "h": 20
+    },
+    {
+      "id": "bankSelect_1",
+      "type": "stripFrame",
+      "spriteKey": "bankSelect",
+      "x": 18,
+      "y": 105,
+      "w": 68,
+      "h": 30
+    },
+    {
+      "id": "bankSelect_2",
+      "type": "stripFrame",
+      "spriteKey": "bankSelect",
+      "x": 16,
+      "y": 219,
+      "w": 68,
+      "h": 30
+    },
+    {
+      "id": "bankSelect_3",
+      "type": "stripFrame",
+      "spriteKey": "bankSelect",
+      "x": 18,
+      "y": 333,
+      "w": 68,
+      "h": 30
+    },
+    {
+      "id": "bankSelect_4",
+      "type": "stripFrame",
+      "spriteKey": "bankSelect",
+      "x": 17,
+      "y": 450,
+      "w": 68,
+      "h": 30
+    },
+    {
+      "id": "digitStrip_steps_1_0",
+      "type": "stripFrame",
+      "spriteKey": "digitStrip",
+      "x": 60,
+      "y": 143,
+      "w": 10,
+      "h": 16
+    },
+    {
+      "id": "digitStrip_steps_1_1",
+      "type": "stripFrame",
+      "spriteKey": "digitStrip",
+      "x": 52,
+      "y": 143,
+      "w": 10,
+      "h": 16
+    },
+    {
+      "id": "digitStrip_steps_2_0",
+      "type": "stripFrame",
+      "spriteKey": "digitStrip",
+      "x": 60,
+      "y": 258,
+      "w": 10,
+      "h": 16
+    },
+    {
+      "id": "digitStrip_steps_2_1",
+      "type": "stripFrame",
+      "spriteKey": "digitStrip",
+      "x": 52,
+      "y": 258,
+      "w": 10,
+      "h": 16
+    },
+    {
+      "id": "digitStrip_steps_3_0",
+      "type": "stripFrame",
+      "spriteKey": "digitStrip",
+      "x": 60,
+      "y": 373,
+      "w": 10,
+      "h": 16
+    },
+    {
+      "id": "digitStrip_steps_3_1",
+      "type": "stripFrame",
+      "spriteKey": "digitStrip",
+      "x": 52,
+      "y": 373,
+      "w": 10,
+      "h": 16
+    },
+    {
+      "id": "digitStrip_steps_4_0",
+      "type": "stripFrame",
+      "spriteKey": "digitStrip",
+      "x": 60,
+      "y": 488,
+      "w": 10,
+      "h": 16
+    },
+    {
+      "id": "digitStrip_steps_4_1",
+      "type": "stripFrame",
+      "spriteKey": "digitStrip",
+      "x": 52,
+      "y": 488,
+      "w": 10,
+      "h": 16
+    },
+    {
+      "id": "arrowPairUp_steps_1",
+      "type": "stripFrame",
+      "spriteKey": "arrowPairUp",
+      "x": 71,
+      "y": 142,
+      "w": 11,
+      "h": 9
+    },
+    {
+      "id": "arrowPairUp_steps_2",
+      "type": "stripFrame",
+      "spriteKey": "arrowPairUp",
+      "x": 71,
+      "y": 257,
+      "w": 11,
+      "h": 9
+    },
+    {
+      "id": "arrowPairUp_steps_3",
+      "type": "stripFrame",
+      "spriteKey": "arrowPairUp",
+      "x": 72,
+      "y": 372,
+      "w": 11,
+      "h": 9
+    },
+    {
+      "id": "arrowPairUp_steps_4",
+      "type": "stripFrame",
+      "spriteKey": "arrowPairUp",
+      "x": 72,
+      "y": 486,
+      "w": 11,
+      "h": 9
+    },
+    {
+      "id": "arrowPairDown_steps_1",
+      "type": "stripFrame",
+      "spriteKey": "arrowPairDown",
+      "x": 71,
+      "y": 151,
+      "w": 11,
+      "h": 9
+    },
+    {
+      "id": "arrowPairDown_steps_2",
+      "type": "stripFrame",
+      "spriteKey": "arrowPairDown",
+      "x": 71,
+      "y": 266,
+      "w": 11,
+      "h": 9
+    },
+    {
+      "id": "arrowPairDown_steps_3",
+      "type": "stripFrame",
+      "spriteKey": "arrowPairDown",
+      "x": 72,
+      "y": 381,
+      "w": 11,
+      "h": 9
+    },
+    {
+      "id": "arrowPairDown_steps_4",
+      "type": "stripFrame",
+      "spriteKey": "arrowPairDown",
+      "x": 72,
+      "y": 495,
+      "w": 11,
+      "h": 9
+    },
+    {
+      "id": "pcf_tgl",
+      "type": "sprite",
+      "spriteKey": "toggleBtn",
+      "x": 531,
+      "y": 150,
+      "w": 16,
+      "h": 16
+    },
+    {
+      "id": "delay_tgl",
+      "type": "sprite",
+      "spriteKey": "toggleBtn",
+      "x": 531,
+      "y": 261,
+      "w": 16,
+      "h": 16
+    },
+    {
+      "id": "dist_tgl",
+      "type": "sprite",
+      "spriteKey": "toggleBtn",
+      "x": 531,
+      "y": 355,
+      "w": 16,
+      "h": 16
+    },
+    {
+      "id": "comp_tgl",
+      "type": "sprite",
+      "spriteKey": "toggleBtn",
+      "x": 530,
+      "y": 419,
+      "w": 16,
+      "h": 16
+    },
+    {
+      "id": "pattern_tgl_1",
+      "type": "sprite",
+      "spriteKey": "toggleBtn_1",
+      "x": 18,
+      "y": 53,
+      "w": 16,
+      "h": 16
+    },
+    {
+      "id": "pattern_tgl_2",
+      "type": "sprite",
+      "spriteKey": "toggleBtn_1",
+      "x": 18,
+      "y": 168,
+      "w": 16,
+      "h": 16
+    },
+    {
+      "id": "pattern_tgl_3",
+      "type": "sprite",
+      "spriteKey": "toggleBtn_1",
+      "x": 16,
+      "y": 281,
+      "w": 16,
+      "h": 16
+    },
+    {
+      "id": "pattern_tgl_4",
+      "type": "sprite",
+      "spriteKey": "toggleBtn_1",
+      "x": 17,
+      "y": 397,
+      "w": 16,
+      "h": 16
+    },
+    {
+      "id": "mix_tgl_1",
+      "type": "sprite",
+      "spriteKey": "toggleBtn_1",
+      "x": 461,
+      "y": 55,
+      "w": 16,
+      "h": 16
+    },
+    {
+      "id": "mix_tgl_2",
+      "type": "sprite",
+      "spriteKey": "toggleBtn_1",
+      "x": 459,
+      "y": 168,
+      "w": 16,
+      "h": 16
+    },
+    {
+      "id": "mix_tgl_3",
+      "type": "sprite",
+      "spriteKey": "toggleBtn_1",
+      "x": 459,
+      "y": 282,
+      "w": 16,
+      "h": 16
+    },
+    {
+      "id": "mix_tgl_4",
+      "type": "sprite",
+      "spriteKey": "toggleBtn_1",
+      "x": 458,
+      "y": 397,
+      "w": 16,
+      "h": 16
+    },
+    {
+      "id": "pan_1",
+      "type": "stripFrame",
+      "spriteKey": "knob31",
+      "x": 465,
+      "y": 75,
+      "w": 19,
+      "h": 19
+    },
+    {
+      "id": "pan_2",
+      "type": "stripFrame",
+      "spriteKey": "knob31",
+      "x": 465,
+      "y": 188,
+      "w": 19,
+      "h": 19
+    },
+    {
+      "id": "pan_3",
+      "type": "stripFrame",
+      "spriteKey": "knob31",
+      "x": 465,
+      "y": 304,
+      "w": 19,
+      "h": 19
+    },
+    {
+      "id": "pan_4",
+      "type": "stripFrame",
+      "spriteKey": "knob31",
+      "x": 465,
+      "y": 418,
+      "w": 19,
+      "h": 19
+    },
+    {
+      "id": "dly_1",
+      "type": "stripFrame",
+      "spriteKey": "knob31",
+      "x": 497,
+      "y": 128,
+      "w": 19,
+      "h": 19
+    },
+    {
+      "id": "dly_2",
+      "type": "stripFrame",
+      "spriteKey": "knob31",
+      "x": 497,
+      "y": 243,
+      "w": 19,
+      "h": 19
+    },
+    {
+      "id": "dly_3",
+      "type": "stripFrame",
+      "spriteKey": "knob31",
+      "x": 498,
+      "y": 358,
+      "w": 19,
+      "h": 19
+    },
+    {
+      "id": "dly_4",
+      "type": "stripFrame",
+      "spriteKey": "knob31",
+      "x": 497,
+      "y": 472,
+      "w": 19,
+      "h": 19
+    },
+    {
+      "id": "mix_dist_1",
+      "type": "stripFrame",
+      "spriteKey": "btnFX",
+      "x": 498,
+      "y": 68,
+      "w": 24,
+      "h": 11
+    },
+    {
+      "id": "mix_dist_2",
+      "type": "stripFrame",
+      "spriteKey": "btnFX",
+      "x": 498,
+      "y": 182,
+      "w": 24,
+      "h": 11
+    },
+    {
+      "id": "mix_dist_3",
+      "type": "stripFrame",
+      "spriteKey": "btnFX",
+      "x": 499,
+      "y": 298,
+      "w": 24,
+      "h": 11
+    },
+    {
+      "id": "mix_dist_4",
+      "type": "stripFrame",
+      "spriteKey": "btnFX",
+      "x": 499,
+      "y": 411,
+      "w": 24,
+      "h": 11
+    },
+    {
+      "id": "mix_pcf_1",
+      "type": "stripFrame",
+      "spriteKey": "btnFX",
+      "x": 497,
+      "y": 86,
+      "w": 24,
+      "h": 11
+    },
+    {
+      "id": "mix_pcf_2",
+      "type": "stripFrame",
+      "spriteKey": "btnFX",
+      "x": 498,
+      "y": 200,
+      "w": 24,
+      "h": 11
+    },
+    {
+      "id": "mix_pcf_3",
+      "type": "stripFrame",
+      "spriteKey": "btnFX",
+      "x": 499,
+      "y": 315,
+      "w": 24,
+      "h": 11
+    },
+    {
+      "id": "mix_pcf_4",
+      "type": "stripFrame",
+      "spriteKey": "btnFX",
+      "x": 498,
+      "y": 429,
+      "w": 24,
+      "h": 11
+    },
+    {
+      "id": "mix_comp_1",
+      "type": "stripFrame",
+      "spriteKey": "btnFX",
+      "x": 496,
+      "y": 104,
+      "w": 24,
+      "h": 11
+    },
+    {
+      "id": "mix_comp_2",
+      "type": "stripFrame",
+      "spriteKey": "btnFX",
+      "x": 498,
+      "y": 219,
+      "w": 24,
+      "h": 11
+    },
+    {
+      "id": "mix_comp_3",
+      "type": "stripFrame",
+      "spriteKey": "btnFX",
+      "x": 499,
+      "y": 334,
+      "w": 24,
+      "h": 11
+    },
+    {
+      "id": "mix_comp_4",
+      "type": "stripFrame",
+      "spriteKey": "btnFX",
+      "x": 498,
+      "y": 447,
+      "w": 24,
+      "h": 11
+    },
+    {
+      "id": "mix_meter_1",
+      "type": "stripFrame",
+      "spriteKey": "meterSm",
+      "x": 505,
+      "y": 52,
+      "w": 11,
+      "h": 15
+    },
+    {
+      "id": "mix_meter_2",
+      "type": "stripFrame",
+      "spriteKey": "meterSm",
+      "x": 505,
+      "y": 168,
+      "w": 11,
+      "h": 15
+    },
+    {
+      "id": "mix_meter_3",
+      "type": "stripFrame",
+      "spriteKey": "meterSm",
+      "x": 506,
+      "y": 283,
+      "w": 11,
+      "h": 15
+    },
+    {
+      "id": "mix_meter_4",
+      "type": "stripFrame",
+      "spriteKey": "meterSm",
+      "x": 508,
+      "y": 397,
+      "w": 11,
+      "h": 15
+    },
+    {
+      "id": "master_meter_right",
+      "type": "stripFrame",
+      "spriteKey": "meterTall",
+      "x": 578,
+      "y": 74,
+      "w": 15,
+      "h": 56
+    },
+    {
+      "id": "master_comp_tgl",
+      "type": "stripFrame",
+      "spriteKey": "btnFX",
+      "x": 568,
+      "y": 131,
+      "w": 24,
+      "h": 11
+    },
+    {
+      "id": "dly_pan",
+      "type": "stripFrame",
+      "spriteKey": "knob31",
+      "x": 539,
+      "y": 315,
+      "w": 19,
+      "h": 19
+    },
+    {
+      "id": "dist_amount",
+      "type": "stripFrame",
+      "spriteKey": "knob31",
+      "x": 539,
+      "y": 377,
+      "w": 19,
+      "h": 19
+    },
+    {
+      "id": "dly_feedback",
+      "type": "stripFrame",
+      "spriteKey": "knob31",
+      "x": 577,
+      "y": 316,
+      "w": 19,
+      "h": 19
+    },
+    {
+      "id": "dist_shape",
+      "type": "stripFrame",
+      "spriteKey": "knob31",
+      "x": 578,
+      "y": 378,
+      "w": 19,
+      "h": 19
+    },
+    {
+      "id": "comp_ratio",
+      "type": "stripFrame",
+      "spriteKey": "knob31",
+      "x": 537,
+      "y": 471,
+      "w": 19,
+      "h": 19
+    },
+    {
+      "id": "comp_thresh",
+      "type": "stripFrame",
+      "spriteKey": "knob31",
+      "x": 579,
+      "y": 471,
+      "w": 19,
+      "h": 19
+    },
+    {
+      "id": "comp_meter",
+      "type": "stripFrame",
+      "spriteKey": "meterSm",
+      "x": 588,
+      "y": 418,
+      "w": 11,
+      "h": 15
+    },
+    {
+      "id": "dist_meter",
+      "type": "stripFrame",
+      "spriteKey": "meterSm",
+      "x": 590,
+      "y": 354,
+      "w": 11,
+      "h": 15
+    },
+    {
+      "id": "dly_meter",
+      "type": "stripFrame",
+      "spriteKey": "meterSm",
+      "x": 589,
+      "y": 261,
+      "w": 11,
+      "h": 15
+    },
+    {
+      "id": "pcf_meter",
+      "type": "stripFrame",
+      "spriteKey": "meterSm",
+      "x": 588,
+      "y": 150,
+      "w": 11,
+      "h": 15
+    },
+    {
+      "id": "digitStrip_dly_steps_0",
+      "type": "stripFrame",
+      "spriteKey": "digitStrip",
+      "x": 542,
+      "y": 281,
+      "w": 10,
+      "h": 16
+    },
+    {
+      "id": "digitStrip_dly_steps_1",
+      "type": "stripFrame",
+      "spriteKey": "digitStrip",
+      "x": 535,
+      "y": 281,
+      "w": 10,
+      "h": 16
+    },
+    {
+      "id": "digitStrip_pcf_pattern_0",
+      "type": "stripFrame",
+      "spriteKey": "digitStrip",
+      "x": 542,
+      "y": 170,
+      "w": 10,
+      "h": 16
+    },
+    {
+      "id": "digitStrip_pcf_pattern_1",
+      "type": "stripFrame",
+      "spriteKey": "digitStrip",
+      "x": 535,
+      "y": 170,
+      "w": 10,
+      "h": 16
+    },
+    {
+      "id": "mix_fader_1",
+      "type": "sprite",
+      "spriteKey": "faderHandleStatic",
+      "x": 466,
+      "y": 148,
+      "w": 15,
+      "h": 11
+    },
+    {
+      "id": "mix_fader_2",
+      "type": "sprite",
+      "spriteKey": "faderHandleStatic",
+      "x": 466,
+      "y": 262,
+      "w": 15,
+      "h": 11
+    },
+    {
+      "id": "mix_fader_3",
+      "type": "sprite",
+      "spriteKey": "faderHandleStatic",
+      "x": 465,
+      "y": 376,
+      "w": 15,
+      "h": 11
+    },
+    {
+      "id": "mix_fader_4",
+      "type": "sprite",
+      "spriteKey": "faderHandleStatic",
+      "x": 465,
+      "y": 493,
+      "w": 15,
+      "h": 11
+    },
+    {
+      "id": "pcf_fader_amt",
+      "type": "sprite",
+      "spriteKey": "faderHandleStatic",
+      "x": 569,
+      "y": 233,
+      "w": 15,
+      "h": 11
+    },
+    {
+      "id": "pcf_fader_freq",
+      "type": "sprite",
+      "spriteKey": "faderHandleStatic",
+      "x": 531,
+      "y": 233,
+      "w": 15,
+      "h": 11
+    },
+    {
+      "id": "pcf_fader_q",
+      "type": "sprite",
+      "spriteKey": "faderHandleStatic",
+      "x": 550,
+      "y": 233,
+      "w": 15,
+      "h": 11
+    },
+    {
+      "id": "pcf_fader_dec",
+      "type": "sprite",
+      "spriteKey": "faderHandleStatic",
+      "x": 589,
+      "y": 233,
+      "w": 15,
+      "h": 11
+    },
+    {
+      "id": "pcf_filter_type_tgl",
+      "type": "stripFrame",
+      "spriteKey": "btnSmall2State",
+      "x": 574,
+      "y": 169,
+      "w": 9,
+      "h": 18
+    },
+    {
+      "id": "dly_step_type",
+      "type": "stripFrame",
+      "spriteKey": "btnSmall2State",
+      "x": 571,
+      "y": 281,
+      "w": 9,
+      "h": 18
+    },
+    {
+      "id": "master_fader",
+      "type": "sprite",
+      "spriteKey": "faderHandleStatic",
+      "x": 559,
+      "y": 112,
+      "w": 15,
+      "h": 11
+    },
+    {
+      "id": "delay_steps_up",
+      "type": "stripFrame",
+      "spriteKey": "arrowPairUp",
+      "x": 554,
+      "y": 280,
+      "w": 11,
+      "h": 9
+    },
+    {
+      "id": "pcf_pattern_up",
+      "type": "stripFrame",
+      "spriteKey": "arrowPairUp",
+      "x": 554,
+      "y": 169,
+      "w": 11,
+      "h": 9
+    },
+    {
+      "id": "pcf_pattern_down",
+      "type": "stripFrame",
+      "spriteKey": "arrowPairDown",
+      "x": 554,
+      "y": 177,
+      "w": 11,
+      "h": 9
+    },
+    {
+      "id": "dly_steps_down",
+      "type": "stripFrame",
+      "spriteKey": "arrowPairDown",
+      "x": 554,
+      "y": 290,
+      "w": 11,
+      "h": 9
+    },
+    {
+      "id": "deviceFocus_1",
+      "type": "sprite",
+      "spriteKey": "deviceFocus",
+      "x": 87,
+      "y": 49,
+      "w": 4,
+      "h": 115
+    },
+    {
+      "id": "deviceFocus_2",
+      "type": "sprite",
+      "spriteKey": "deviceFocus",
+      "x": 87,
+      "y": 164,
+      "w": 4,
+      "h": 115
+    },
+    {
+      "id": "deviceFocus_3",
+      "type": "sprite",
+      "spriteKey": "deviceFocus",
+      "x": 86,
+      "y": 277,
+      "w": 4,
+      "h": 115
+    },
+    {
+      "id": "deviceFocus_4",
+      "type": "sprite",
+      "spriteKey": "deviceFocus",
+      "x": 86,
+      "y": 394,
+      "w": 4,
+      "h": 115
+    },
+    {
+      "id": "S303_1_key_C#",
+      "type": "sprite",
+      "spriteKey": "S303btnH",
+      "x": 152,
+      "y": 113,
+      "w": 8,
+      "h": 16
+    },
+    {
+      "id": "S303_1_pitch_mode",
+      "type": "sprite",
+      "spriteKey": "S303btnV",
+      "x": 107,
+      "y": 147,
+      "w": 15,
+      "h": 8
+    },
+    {
+      "id": "S303_1_forward",
+      "type": "sprite",
+      "spriteKey": "S303btnBig",
+      "x": 413,
+      "y": 140,
+      "w": 25,
+      "h": 17
+    },
+    {
+      "id": "S303_1_light_C",
+      "type": "stripFrame",
+      "spriteKey": "S303lightWhite",
+      "x": 140,
+      "y": 130,
+      "w": 8,
+      "h": 8
+    },
+    {
+      "id": "S303_1_light_pitch_mode",
+      "type": "stripFrame",
+      "spriteKey": "S303lightBlack",
+      "x": 110,
+      "y": 116,
+      "w": 8,
+      "h": 8
+    },
+    {
+      "id": "S303_1_tune",
+      "type": "stripFrame",
+      "spriteKey": "S303knob54",
+      "x": 162,
+      "y": 61,
+      "w": 30,
+      "h": 30
+    },
+    {
+      "id": "S303_1_tgl",
+      "type": "sprite",
+      "spriteKey": "S303tgl",
+      "x": 114,
+      "y": 61,
+      "w": 16,
+      "h": 12
+    },
+    {
+      "id": "midi",
+      "type": "stripFrame",
+      "spriteKey": "btnSteps3State",
+      "x": 89,
+      "y": 2,
+      "w": 11,
+      "h": 11
+    },
+    {
+      "id": "S303_1_key_D",
+      "type": "stripFrame",
+      "spriteKey": "S303btn",
+      "x": 161,
+      "y": 139,
+      "w": 9,
+      "h": 16
+    },
+    {
+      "id": "S303_1_key_E",
+      "type": "stripFrame",
+      "spriteKey": "S303btn",
+      "x": 182,
+      "y": 139,
+      "w": 9,
+      "h": 16
+    },
+    {
+      "id": "S303_1_key_F",
+      "type": "stripFrame",
+      "spriteKey": "S303btn",
+      "x": 203,
+      "y": 139,
+      "w": 9,
+      "h": 16
+    },
+    {
+      "id": "S303_1_key_G",
+      "type": "stripFrame",
+      "spriteKey": "S303btn",
+      "x": 224,
+      "y": 139,
+      "w": 9,
+      "h": 16
+    },
+    {
+      "id": "S303_1_key_A",
+      "type": "stripFrame",
+      "spriteKey": "S303btn",
+      "x": 245,
+      "y": 139,
+      "w": 9,
+      "h": 16
+    },
+    {
+      "id": "S303_1_key_B",
+      "type": "stripFrame",
+      "spriteKey": "S303btn",
+      "x": 266,
+      "y": 139,
+      "w": 9,
+      "h": 16
+    },
+    {
+      "id": "S303_1_key_C_1",
+      "type": "stripFrame",
+      "spriteKey": "S303btn",
+      "x": 287,
+      "y": 139,
+      "w": 9,
+      "h": 16
+    },
+    {
+      "id": "S303_1_key_D#",
+      "type": "sprite",
+      "spriteKey": "S303btnH",
+      "x": 214,
+      "y": 113,
+      "w": 8,
+      "h": 16
+    },
+    {
+      "id": "S303_1_key_F#",
+      "type": "sprite",
+      "spriteKey": "S303btnH",
+      "x": 173,
+      "y": 113,
+      "w": 8,
+      "h": 16
+    },
+    {
+      "id": "S303_1_key_G#",
+      "type": "sprite",
+      "spriteKey": "S303btnH",
+      "x": 236,
+      "y": 113,
+      "w": 8,
+      "h": 16
+    },
+    {
+      "id": "S303_1_key_A#",
+      "type": "sprite",
+      "spriteKey": "S303btnH",
+      "x": 256,
+      "y": 113,
+      "w": 8,
+      "h": 16
+    },
+    {
+      "id": "S303_1_clear",
+      "type": "sprite",
+      "spriteKey": "S303btnV",
+      "x": 108,
+      "y": 125,
+      "w": 15,
+      "h": 8
+    },
+    {
+      "id": "S303_1_step_active",
+      "type": "sprite",
+      "spriteKey": "S303btnV",
+      "x": 383,
+      "y": 109,
+      "w": 15,
+      "h": 8
+    },
+    {
+      "id": "S303_1_back",
+      "type": "sprite",
+      "spriteKey": "S303btnV",
+      "x": 417,
+      "y": 113,
+      "w": 15,
+      "h": 8
+    },
+    {
+      "id": "S303_1_down",
+      "type": "stripFrame",
+      "spriteKey": "S303btn",
+      "x": 312,
+      "y": 139,
+      "w": 9,
+      "h": 16
+    },
+    {
+      "id": "S303_1_up",
+      "type": "stripFrame",
+      "spriteKey": "S303btn",
+      "x": 337,
+      "y": 139,
+      "w": 9,
+      "h": 16
+    },
+    {
+      "id": "S303_1_accent",
+      "type": "stripFrame",
+      "spriteKey": "S303btn",
+      "x": 362,
+      "y": 139,
+      "w": 9,
+      "h": 16
+    },
+    {
+      "id": "S303_1_slide",
+      "type": "stripFrame",
+      "spriteKey": "S303btn",
+      "x": 387,
+      "y": 139,
+      "w": 9,
+      "h": 16
+    },
+    {
+      "id": "S303_1_cutoff",
+      "type": "stripFrame",
+      "spriteKey": "S303knob54",
+      "x": 195,
+      "y": 61,
+      "w": 30,
+      "h": 30
+    },
+    {
+      "id": "S303_1_reso",
+      "type": "stripFrame",
+      "spriteKey": "S303knob54",
+      "x": 228,
+      "y": 61,
+      "w": 30,
+      "h": 30
+    },
+    {
+      "id": "S303_1_env_mod",
+      "type": "stripFrame",
+      "spriteKey": "S303knob54",
+      "x": 260,
+      "y": 61,
+      "w": 30,
+      "h": 30
+    },
+    {
+      "id": "S303_1_decay",
+      "type": "stripFrame",
+      "spriteKey": "S303knob54",
+      "x": 296,
+      "y": 61,
+      "w": 30,
+      "h": 30
+    },
+    {
+      "id": "S303_1_Kaccent",
+      "type": "stripFrame",
+      "spriteKey": "S303knob54",
+      "x": 328,
+      "y": 61,
+      "w": 30,
+      "h": 30
+    },
+    {
+      "id": "S303_1_light_C#",
+      "type": "stripFrame",
+      "spriteKey": "S303lightBlack",
+      "x": 151,
+      "y": 104,
+      "w": 8,
+      "h": 8
+    },
+    {
+      "id": "S303_1_light_D#",
+      "type": "stripFrame",
+      "spriteKey": "S303lightBlack",
+      "x": 173,
+      "y": 103,
+      "w": 8,
+      "h": 8
+    },
+    {
+      "id": "S303_1_light_F#",
+      "type": "stripFrame",
+      "spriteKey": "S303lightBlack",
+      "x": 213,
+      "y": 105,
+      "w": 8,
+      "h": 8
+    },
+    {
+      "id": "S303_1_light_G#",
+      "type": "stripFrame",
+      "spriteKey": "S303lightBlack",
+      "x": 235,
+      "y": 104,
+      "w": 8,
+      "h": 8
+    },
+    {
+      "id": "S303_1_light_A#",
+      "type": "stripFrame",
+      "spriteKey": "S303lightBlack",
+      "x": 256,
+      "y": 106,
+      "w": 8,
+      "h": 8
+    },
+    {
+      "id": "S303_1_light_D",
+      "type": "stripFrame",
+      "spriteKey": "S303lightWhite",
+      "x": 161,
+      "y": 130,
+      "w": 8,
+      "h": 8
+    },
+    {
+      "id": "S303_1_light_E",
+      "type": "stripFrame",
+      "spriteKey": "S303lightWhite",
+      "x": 182,
+      "y": 131,
+      "w": 8,
+      "h": 8
+    },
+    {
+      "id": "S303_1_light_F",
+      "type": "stripFrame",
+      "spriteKey": "S303lightWhite",
+      "x": 203,
+      "y": 131,
+      "w": 8,
+      "h": 8
+    },
+    {
+      "id": "S303_1_light_G",
+      "type": "stripFrame",
+      "spriteKey": "S303lightWhite",
+      "x": 224,
+      "y": 130,
+      "w": 8,
+      "h": 8
+    },
+    {
+      "id": "S303_1_light_A",
+      "type": "stripFrame",
+      "spriteKey": "S303lightWhite",
+      "x": 246,
+      "y": 130,
+      "w": 8,
+      "h": 8
+    },
+    {
+      "id": "S303_1_light_B",
+      "type": "stripFrame",
+      "spriteKey": "S303lightWhite",
+      "x": 266,
+      "y": 130,
+      "w": 8,
+      "h": 8
+    },
+    {
+      "id": "S303_1_light_C_1",
+      "type": "stripFrame",
+      "spriteKey": "S303lightWhite",
+      "x": 287,
+      "y": 130,
+      "w": 8,
+      "h": 8
+    },
+    {
+      "id": "S303_1_light_down",
+      "type": "stripFrame",
+      "spriteKey": "S303lightWhite",
+      "x": 313,
+      "y": 131,
+      "w": 8,
+      "h": 8
+    },
+    {
+      "id": "S303_1_light_up",
+      "type": "stripFrame",
+      "spriteKey": "S303lightWhite",
+      "x": 337,
+      "y": 131,
+      "w": 8,
+      "h": 8
+    },
+    {
+      "id": "S303_1_light_accent",
+      "type": "stripFrame",
+      "spriteKey": "S303lightWhite",
+      "x": 362,
+      "y": 131,
+      "w": 8,
+      "h": 8
+    },
+    {
+      "id": "S303_1_light_slide",
+      "type": "stripFrame",
+      "spriteKey": "S303lightWhite",
+      "x": 387,
+      "y": 131,
+      "w": 8,
+      "h": 8
+    },
+    {
+      "id": "S303_1_light_step_active",
+      "type": "stripFrame",
+      "spriteKey": "S303lightWhite",
+      "x": 372,
+      "y": 109,
+      "w": 8,
+      "h": 8
+    },
+    {
+      "id": "digitStrip_S303_1_step_0",
+      "type": "stripFrame",
+      "spriteKey": "digitStrip",
+      "x": 426,
+      "y": 75,
+      "w": 10,
+      "h": 16
+    },
+    {
+      "id": "S303_2_key_C#",
+      "type": "sprite",
+      "spriteKey": "S303btnH",
+      "x": 152,
+      "y": 226,
+      "w": 8,
+      "h": 16
+    },
+    {
+      "id": "S303_2_pitch_mode",
+      "type": "sprite",
+      "spriteKey": "S303btnV",
+      "x": 109,
+      "y": 237,
+      "w": 15,
+      "h": 8
+    },
+    {
+      "id": "S303_2_forward",
+      "type": "sprite",
+      "spriteKey": "S303btnBig",
+      "x": 415,
+      "y": 253,
+      "w": 25,
+      "h": 17
+    },
+    {
+      "id": "S303_2_light_C",
+      "type": "stripFrame",
+      "spriteKey": "S303lightWhite",
+      "x": 141,
+      "y": 244,
+      "w": 8,
+      "h": 8
+    },
+    {
+      "id": "S303_2_light_pitch_mode",
+      "type": "stripFrame",
+      "spriteKey": "S303lightBlack",
+      "x": 113,
+      "y": 229,
+      "w": 8,
+      "h": 8
+    },
+    {
+      "id": "S303_2_tune",
+      "type": "stripFrame",
+      "spriteKey": "S303knob54",
+      "x": 162,
+      "y": 175,
+      "w": 30,
+      "h": 30
+    },
+    {
+      "id": "S303_2_tgl",
+      "type": "sprite",
+      "spriteKey": "S303tgl",
+      "x": 114,
+      "y": 172,
+      "w": 16,
+      "h": 12
+    },
+    {
+      "id": "S303_2_key_D",
+      "type": "stripFrame",
+      "spriteKey": "S303btn",
+      "x": 162,
+      "y": 252,
+      "w": 9,
+      "h": 16
+    },
+    {
+      "id": "S303_2_key_E",
+      "type": "stripFrame",
+      "spriteKey": "S303btn",
+      "x": 184,
+      "y": 252,
+      "w": 9,
+      "h": 16
+    },
+    {
+      "id": "S303_2_key_F",
+      "type": "stripFrame",
+      "spriteKey": "S303btn",
+      "x": 204,
+      "y": 252,
+      "w": 9,
+      "h": 16
+    },
+    {
+      "id": "S303_2_key_G",
+      "type": "stripFrame",
+      "spriteKey": "S303btn",
+      "x": 225,
+      "y": 252,
+      "w": 9,
+      "h": 16
+    },
+    {
+      "id": "S303_2_key_A",
+      "type": "stripFrame",
+      "spriteKey": "S303btn",
+      "x": 246,
+      "y": 252,
+      "w": 9,
+      "h": 16
+    },
+    {
+      "id": "S303_2_key_B",
+      "type": "stripFrame",
+      "spriteKey": "S303btn",
+      "x": 267,
+      "y": 252,
+      "w": 9,
+      "h": 16
+    },
+    {
+      "id": "S303_2_key_C_1",
+      "type": "stripFrame",
+      "spriteKey": "S303btn",
+      "x": 288,
+      "y": 252,
+      "w": 9,
+      "h": 16
+    },
+    {
+      "id": "S303_2_key_D#",
+      "type": "sprite",
+      "spriteKey": "S303btnH",
+      "x": 225,
+      "y": 252,
+      "w": 8,
+      "h": 16
+    },
+    {
+      "id": "S303_2_key_F#",
+      "type": "sprite",
+      "spriteKey": "S303btnH",
+      "x": 173,
+      "y": 226,
+      "w": 8,
+      "h": 16
+    },
+    {
+      "id": "S303_2_key_G#",
+      "type": "sprite",
+      "spriteKey": "S303btnH",
+      "x": 236,
+      "y": 226,
+      "w": 8,
+      "h": 16
+    },
+    {
+      "id": "S303_2_key_A#",
+      "type": "sprite",
+      "spriteKey": "S303btnH",
+      "x": 258,
+      "y": 226,
+      "w": 8,
+      "h": 16
+    },
+    {
+      "id": "S303_2_clear",
+      "type": "sprite",
+      "spriteKey": "S303btnV",
+      "x": 109,
+      "y": 260,
+      "w": 15,
+      "h": 8
+    },
+    {
+      "id": "S303_2_step_active",
+      "type": "sprite",
+      "spriteKey": "S303btnV",
+      "x": 384,
+      "y": 222,
+      "w": 15,
+      "h": 8
+    },
+    {
+      "id": "S303_2_back",
+      "type": "sprite",
+      "spriteKey": "S303btnV",
+      "x": 419,
+      "y": 226,
+      "w": 15,
+      "h": 8
+    },
+    {
+      "id": "S303_2_down",
+      "type": "stripFrame",
+      "spriteKey": "S303btn",
+      "x": 313,
+      "y": 252,
+      "w": 9,
+      "h": 16
+    },
+    {
+      "id": "S303_2_up",
+      "type": "stripFrame",
+      "spriteKey": "S303btn",
+      "x": 338,
+      "y": 252,
+      "w": 9,
+      "h": 16
+    },
+    {
+      "id": "S303_2_accent",
+      "type": "stripFrame",
+      "spriteKey": "S303btn",
+      "x": 363,
+      "y": 252,
+      "w": 9,
+      "h": 16
+    },
+    {
+      "id": "S303_2_slide",
+      "type": "stripFrame",
+      "spriteKey": "S303btn",
+      "x": 388,
+      "y": 252,
+      "w": 9,
+      "h": 16
+    },
+    {
+      "id": "S303_2_cutoff",
+      "type": "stripFrame",
+      "spriteKey": "S303knob54",
+      "x": 195,
+      "y": 175,
+      "w": 30,
+      "h": 30
+    },
+    {
+      "id": "S303_2_reso",
+      "type": "stripFrame",
+      "spriteKey": "S303knob54",
+      "x": 228,
+      "y": 175,
+      "w": 30,
+      "h": 30
+    },
+    {
+      "id": "S303_2_env_mod",
+      "type": "stripFrame",
+      "spriteKey": "S303knob54",
+      "x": 261,
+      "y": 175,
+      "w": 30,
+      "h": 30
+    },
+    {
+      "id": "S303_2_decay",
+      "type": "stripFrame",
+      "spriteKey": "S303knob54",
+      "x": 294,
+      "y": 175,
+      "w": 30,
+      "h": 30
+    },
+    {
+      "id": "S303_2_Kaccent",
+      "type": "stripFrame",
+      "spriteKey": "S303knob54",
+      "x": 326,
+      "y": 175,
+      "w": 30,
+      "h": 30
+    },
+    {
+      "id": "S303_2_light_C#",
+      "type": "stripFrame",
+      "spriteKey": "S303lightBlack",
+      "x": 152,
+      "y": 217,
+      "w": 8,
+      "h": 8
+    },
+    {
+      "id": "S303_2_light_D#",
+      "type": "stripFrame",
+      "spriteKey": "S303lightBlack",
+      "x": 173,
+      "y": 217,
+      "w": 8,
+      "h": 8
+    },
+    {
+      "id": "S303_2_light_F#",
+      "type": "stripFrame",
+      "spriteKey": "S303lightBlack",
+      "x": 215,
+      "y": 217,
+      "w": 8,
+      "h": 8
+    },
+    {
+      "id": "S303_2_light_G#",
+      "type": "stripFrame",
+      "spriteKey": "S303lightBlack",
+      "x": 236,
+      "y": 218,
+      "w": 8,
+      "h": 8
+    },
+    {
+      "id": "S303_2_light_A#",
+      "type": "stripFrame",
+      "spriteKey": "S303lightBlack",
+      "x": 258,
+      "y": 218,
+      "w": 8,
+      "h": 8
+    },
+    {
+      "id": "S303_2_light_D",
+      "type": "stripFrame",
+      "spriteKey": "S303lightWhite",
+      "x": 162,
+      "y": 243,
+      "w": 8,
+      "h": 8
+    },
+    {
+      "id": "S303_2_light_E",
+      "type": "stripFrame",
+      "spriteKey": "S303lightWhite",
+      "x": 184,
+      "y": 243,
+      "w": 8,
+      "h": 8
+    },
+    {
+      "id": "S303_2_light_F",
+      "type": "stripFrame",
+      "spriteKey": "S303lightWhite",
+      "x": 204,
+      "y": 243,
+      "w": 8,
+      "h": 8
+    },
+    {
+      "id": "S303_2_light_G",
+      "type": "stripFrame",
+      "spriteKey": "S303lightWhite",
+      "x": 226,
+      "y": 244,
+      "w": 8,
+      "h": 8
+    },
+    {
+      "id": "S303_2_light_A",
+      "type": "stripFrame",
+      "spriteKey": "S303lightWhite",
+      "x": 247,
+      "y": 244,
+      "w": 8,
+      "h": 8
+    },
+    {
+      "id": "S303_2_light_B",
+      "type": "stripFrame",
+      "spriteKey": "S303lightWhite",
+      "x": 267,
+      "y": 244,
+      "w": 8,
+      "h": 8
+    },
+    {
+      "id": "S303_2_light_C_1",
+      "type": "stripFrame",
+      "spriteKey": "S303lightWhite",
+      "x": 288,
+      "y": 244,
+      "w": 8,
+      "h": 8
+    },
+    {
+      "id": "S303_2_light_down",
+      "type": "stripFrame",
+      "spriteKey": "S303lightWhite",
+      "x": 313,
+      "y": 244,
+      "w": 8,
+      "h": 8
+    },
+    {
+      "id": "S303_2_light_up",
+      "type": "stripFrame",
+      "spriteKey": "S303lightWhite",
+      "x": 338,
+      "y": 244,
+      "w": 8,
+      "h": 8
+    },
+    {
+      "id": "S303_2_light_accent",
+      "type": "stripFrame",
+      "spriteKey": "S303lightWhite",
+      "x": 363,
+      "y": 244,
+      "w": 8,
+      "h": 8
+    },
+    {
+      "id": "S303_2_light_slide",
+      "type": "stripFrame",
+      "spriteKey": "S303lightWhite",
+      "x": 388,
+      "y": 244,
+      "w": 8,
+      "h": 8
+    },
+    {
+      "id": "S303_2_light_step_active",
+      "type": "stripFrame",
+      "spriteKey": "S303lightWhite",
+      "x": 373,
+      "y": 222,
+      "w": 8,
+      "h": 8
+    },
+    {
+      "id": "digitStrip_S303_2_step_0",
+      "type": "stripFrame",
+      "spriteKey": "digitStrip",
+      "x": 426,
+      "y": 188,
+      "w": 10,
+      "h": 16
+    },
+    {
+      "id": "digitStrip_S303_2_step_1",
+      "type": "stripFrame",
+      "spriteKey": "digitStrip",
+      "x": 420,
+      "y": 188,
+      "w": 10,
+      "h": 16
+    },
+    {
+      "id": "S303_2_light_step_not_active",
+      "type": "stripFrame",
+      "spriteKey": "S303lightWhite",
+      "x": 335,
+      "y": 222,
+      "w": 8,
+      "h": 8
+    },
+    {
+      "id": "S303_1_light_step_not_active",
+      "type": "stripFrame",
+      "spriteKey": "S303lightWhite",
+      "x": 335,
+      "y": 109,
+      "w": 8,
+      "h": 8
+    },
+    {
+      "id": "DM808-tone-bd",
+      "type": "stripFrame",
+      "spriteKey": "DM808Knob236",
+      "x": 125,
+      "y": 308,
+      "w": 13,
+      "h": 13
+    },
+    {
+      "id": "DM808-instr-select",
+      "type": "stripFrame",
+      "spriteKey": "DM808Knob12",
+      "x": 394,
+      "y": 319,
+      "w": 29,
+      "h": 31
+    },
+    {
+      "id": "DM808-level_ac",
+      "type": "stripFrame",
+      "spriteKey": "DM808Knob36",
+      "x": 103,
+      "y": 288,
+      "w": 13,
+      "h": 13
+    },
+    {
+      "id": "DM808-level_bd",
+      "type": "stripFrame",
+      "spriteKey": "DM808Knob36",
+      "x": 125,
+      "y": 288,
+      "w": 13,
+      "h": 13
+    },
+    {
+      "id": "DM808-level_sd",
+      "type": "stripFrame",
+      "spriteKey": "DM808Knob36",
+      "x": 148,
+      "y": 288,
+      "w": 13,
+      "h": 13
+    },
+    {
+      "id": "DM808-level_lt",
+      "type": "stripFrame",
+      "spriteKey": "DM808Knob36",
+      "x": 169,
+      "y": 288,
+      "w": 13,
+      "h": 13
+    },
+    {
+      "id": "DM808-level_mt",
+      "type": "stripFrame",
+      "spriteKey": "DM808Knob36",
+      "x": 190,
+      "y": 288,
+      "w": 13,
+      "h": 13
+    },
+    {
+      "id": "DM808-level_ht",
+      "type": "stripFrame",
+      "spriteKey": "DM808Knob36",
+      "x": 211,
+      "y": 288,
+      "w": 13,
+      "h": 13
+    },
+    {
+      "id": "DM808-level_rs",
+      "type": "stripFrame",
+      "spriteKey": "DM808Knob36",
+      "x": 235,
+      "y": 288,
+      "w": 13,
+      "h": 13
+    },
+    {
+      "id": "DM808-level_cp",
+      "type": "stripFrame",
+      "spriteKey": "DM808Knob36",
+      "x": 255,
+      "y": 288,
+      "w": 13,
+      "h": 13
+    },
+    {
+      "id": "DM808-level_cb",
+      "type": "stripFrame",
+      "spriteKey": "DM808Knob36",
+      "x": 278,
+      "y": 288,
+      "w": 13,
+      "h": 13
+    },
+    {
+      "id": "DM808-level_cy",
+      "type": "stripFrame",
+      "spriteKey": "DM808Knob36",
+      "x": 301,
+      "y": 288,
+      "w": 13,
+      "h": 13
+    },
+    {
+      "id": "DM808-level_oh",
+      "type": "stripFrame",
+      "spriteKey": "DM808Knob36",
+      "x": 323,
+      "y": 288,
+      "w": 13,
+      "h": 13
+    },
+    {
+      "id": "DM808-level_ch",
+      "type": "stripFrame",
+      "spriteKey": "DM808Knob36",
+      "x": 343,
+      "y": 288,
+      "w": 13,
+      "h": 13
+    },
+    {
+      "id": "DM808-decay_bd",
+      "type": "stripFrame",
+      "spriteKey": "DM808Knob236",
+      "x": 125,
+      "y": 333,
+      "w": 13,
+      "h": 13
+    },
+    {
+      "id": "DM808-tune_sd",
+      "type": "stripFrame",
+      "spriteKey": "DM808Knob236",
+      "x": 147,
+      "y": 308,
+      "w": 13,
+      "h": 13
+    },
+    {
+      "id": "DM808-snap_sd",
+      "type": "stripFrame",
+      "spriteKey": "DM808Knob236",
+      "x": 147,
+      "y": 333,
+      "w": 13,
+      "h": 13
+    },
+    {
+      "id": "DM808-tune_lt",
+      "type": "stripFrame",
+      "spriteKey": "DM808Knob236",
+      "x": 169,
+      "y": 309,
+      "w": 13,
+      "h": 13
+    },
+    {
+      "id": "DM808-tune_mt",
+      "type": "stripFrame",
+      "spriteKey": "DM808Knob236",
+      "x": 191,
+      "y": 309,
+      "w": 13,
+      "h": 13
+    },
+    {
+      "id": "DM808-tune_ht",
+      "type": "stripFrame",
+      "spriteKey": "DM808Knob236",
+      "x": 212,
+      "y": 309,
+      "w": 13,
+      "h": 13
+    },
+    {
+      "id": "DM808-tune_cy",
+      "type": "stripFrame",
+      "spriteKey": "DM808Knob236",
+      "x": 301,
+      "y": 310,
+      "w": 13,
+      "h": 13
+    },
+    {
+      "id": "DM808-decay_cy",
+      "type": "stripFrame",
+      "spriteKey": "DM808Knob236",
+      "x": 302,
+      "y": 334,
+      "w": 13,
+      "h": 13
+    },
+    {
+      "id": "DM808-decay_oh",
+      "type": "stripFrame",
+      "spriteKey": "DM808Knob236",
+      "x": 323,
+      "y": 334,
+      "w": 13,
+      "h": 13
+    },
+    {
+      "id": "DM808-tgl-lt_lc",
+      "type": "stripFrame",
+      "spriteKey": "DM808tgl",
+      "x": 170,
+      "y": 334,
+      "w": 11,
+      "h": 17
+    },
+    {
+      "id": "DM808-tgl-mt_mc",
+      "type": "stripFrame",
+      "spriteKey": "DM808tgl",
+      "x": 192,
+      "y": 334,
+      "w": 11,
+      "h": 17
+    },
+    {
+      "id": "DM808-tgl-ht_hc",
+      "type": "stripFrame",
+      "spriteKey": "DM808tgl",
+      "x": 214,
+      "y": 333,
+      "w": 11,
+      "h": 17
+    },
+    {
+      "id": "DM808-tgl-rs_cl",
+      "type": "stripFrame",
+      "spriteKey": "DM808tgl",
+      "x": 236,
+      "y": 333,
+      "w": 11,
+      "h": 17
+    },
+    {
+      "id": "DM808-tgl-cp_ma",
+      "type": "stripFrame",
+      "spriteKey": "DM808tgl",
+      "x": 258,
+      "y": 334,
+      "w": 11,
+      "h": 17
+    },
+    {
+      "id": "DM808-light-step_1",
+      "type": "stripFrame",
+      "spriteKey": "DM808Light",
+      "x": 106,
+      "y": 369,
+      "w": 11,
+      "h": 5
+    },
+    {
+      "id": "DM808-light-step_2",
+      "type": "stripFrame",
+      "spriteKey": "DM808Light",
+      "x": 121,
+      "y": 369,
+      "w": 11,
+      "h": 5
+    },
+    {
+      "id": "DM808-light-step_3",
+      "type": "stripFrame",
+      "spriteKey": "DM808Light",
+      "x": 138,
+      "y": 369,
+      "w": 11,
+      "h": 5
+    },
+    {
+      "id": "DM808-light-step_4",
+      "type": "stripFrame",
+      "spriteKey": "DM808Light",
+      "x": 154,
+      "y": 369,
+      "w": 11,
+      "h": 5
+    },
+    {
+      "id": "DM808-light-step_5",
+      "type": "stripFrame",
+      "spriteKey": "DM808Light",
+      "x": 169,
+      "y": 369,
+      "w": 11,
+      "h": 5,
+      "frameIndex": 1
+    },
+    {
+      "id": "DM808-light-step_6",
+      "type": "stripFrame",
+      "spriteKey": "DM808Light",
+      "x": 185,
+      "y": 369,
+      "w": 11,
+      "h": 5,
+      "frameIndex": 1
+    },
+    {
+      "id": "DM808-light-step_7",
+      "type": "stripFrame",
+      "spriteKey": "DM808Light",
+      "x": 201,
+      "y": 369,
+      "w": 11,
+      "h": 5,
+      "frameIndex": 1
+    },
+    {
+      "id": "DM808-light-step_8",
+      "type": "stripFrame",
+      "spriteKey": "DM808Light",
+      "x": 217,
+      "y": 369,
+      "w": 11,
+      "h": 5,
+      "frameIndex": 1
+    },
+    {
+      "id": "DM808-light-step_9",
+      "type": "stripFrame",
+      "spriteKey": "DM808Light",
+      "x": 233,
+      "y": 369,
+      "w": 11,
+      "h": 5,
+      "frameIndex": 2
+    },
+    {
+      "id": "DM808-light-step_10",
+      "type": "stripFrame",
+      "spriteKey": "DM808Light",
+      "x": 249,
+      "y": 369,
+      "w": 11,
+      "h": 5,
+      "frameIndex": 2
+    },
+    {
+      "id": "DM808-light-step_11",
+      "type": "stripFrame",
+      "spriteKey": "DM808Light",
+      "x": 265,
+      "y": 369,
+      "w": 11,
+      "h": 5,
+      "frameIndex": 2
+    },
+    {
+      "id": "DM808-light-step_12",
+      "type": "stripFrame",
+      "spriteKey": "DM808Light",
+      "x": 281,
+      "y": 369,
+      "w": 11,
+      "h": 5,
+      "frameIndex": 2
+    },
+    {
+      "id": "DM808-light-step_13",
+      "type": "stripFrame",
+      "spriteKey": "DM808Light",
+      "x": 297,
+      "y": 369,
+      "w": 11,
+      "h": 5,
+      "frameIndex": 3
+    },
+    {
+      "id": "DM808-light-step_14",
+      "type": "stripFrame",
+      "spriteKey": "DM808Light",
+      "x": 313,
+      "y": 369,
+      "w": 11,
+      "h": 5,
+      "frameIndex": 3
+    },
+    {
+      "id": "DM808-light-step_15",
+      "type": "stripFrame",
+      "spriteKey": "DM808Light",
+      "x": 329,
+      "y": 369,
+      "w": 11,
+      "h": 5,
+      "frameIndex": 3
+    },
+    {
+      "id": "DM808-light-step_16",
+      "type": "stripFrame",
+      "spriteKey": "DM808Light",
+      "x": 345,
+      "y": 369,
+      "w": 11,
+      "h": 5,
+      "frameIndex": 3
+    },
+    {
+      "id": "DM909-ac",
+      "type": "stripFrame",
+      "spriteKey": "DM909Knob41",
+      "x": 98,
+      "y": 421,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "id": "DM909-light-step_1",
+      "type": "stripFrame",
+      "spriteKey": "DM909light",
+      "x": 120,
+      "y": 479,
+      "w": 14,
+      "h": 8
+    },
+    {
+      "id": "DM909-light-unknown",
+      "type": "stripFrame",
+      "spriteKey": "DM909light_1",
+      "x": 97,
+      "y": 445,
+      "w": 6,
+      "h": 6
+    },
+    {
+      "id": "DM909btn",
+      "type": "stripFrame",
+      "spriteKey": "DM909btn",
+      "x": 97,
+      "y": 486,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "id": "DM909-light-step_2",
+      "type": "stripFrame",
+      "spriteKey": "DM909light",
+      "x": 141,
+      "y": 479,
+      "w": 14,
+      "h": 8
+    },
+    {
+      "id": "DM909-light-step_3",
+      "type": "stripFrame",
+      "spriteKey": "DM909light",
+      "x": 162,
+      "y": 479,
+      "w": 14,
+      "h": 8
+    },
+    {
+      "id": "DM909-light-step_4",
+      "type": "stripFrame",
+      "spriteKey": "DM909light",
+      "x": 183,
+      "y": 479,
+      "w": 14,
+      "h": 8
+    },
+    {
+      "id": "DM909-light-step_5",
+      "type": "stripFrame",
+      "spriteKey": "DM909light",
+      "x": 204,
+      "y": 479,
+      "w": 14,
+      "h": 8
+    },
+    {
+      "id": "DM909-light-step_6",
+      "type": "stripFrame",
+      "spriteKey": "DM909light",
+      "x": 225,
+      "y": 479,
+      "w": 14,
+      "h": 8
+    },
+    {
+      "id": "DM909-light-step_7",
+      "type": "stripFrame",
+      "spriteKey": "DM909light",
+      "x": 246,
+      "y": 479,
+      "w": 14,
+      "h": 8
+    },
+    {
+      "id": "DM909-light-step_8",
+      "type": "stripFrame",
+      "spriteKey": "DM909light",
+      "x": 267,
+      "y": 479,
+      "w": 14,
+      "h": 8
+    },
+    {
+      "id": "DM909-light-step_9",
+      "type": "stripFrame",
+      "spriteKey": "DM909light",
+      "x": 288,
+      "y": 479,
+      "w": 14,
+      "h": 8
+    },
+    {
+      "id": "DM909-light-step_10",
+      "type": "stripFrame",
+      "spriteKey": "DM909light",
+      "x": 309,
+      "y": 479,
+      "w": 14,
+      "h": 8
+    },
+    {
+      "id": "DM909-light-step_11",
+      "type": "stripFrame",
+      "spriteKey": "DM909light",
+      "x": 330,
+      "y": 479,
+      "w": 14,
+      "h": 8
+    },
+    {
+      "id": "DM909-light-step_12",
+      "type": "stripFrame",
+      "spriteKey": "DM909light",
+      "x": 351,
+      "y": 479,
+      "w": 14,
+      "h": 8
+    },
+    {
+      "id": "DM909-light-step_13",
+      "type": "stripFrame",
+      "spriteKey": "DM909light",
+      "x": 372,
+      "y": 479,
+      "w": 14,
+      "h": 8
+    },
+    {
+      "id": "DM909-light-step_14",
+      "type": "stripFrame",
+      "spriteKey": "DM909light",
+      "x": 393,
+      "y": 479,
+      "w": 14,
+      "h": 8
+    },
+    {
+      "id": "DM909-light-step_15",
+      "type": "stripFrame",
+      "spriteKey": "DM909light",
+      "x": 414,
+      "y": 480,
+      "w": 14,
+      "h": 8
+    },
+    {
+      "id": "DM909-light-step_16",
+      "type": "stripFrame",
+      "spriteKey": "DM909light",
+      "x": 435,
+      "y": 480,
+      "w": 14,
+      "h": 8
+    },
+    {
+      "id": "DM909-flam",
+      "type": "stripFrame",
+      "spriteKey": "DM909Knob41",
+      "x": 98,
+      "y": 468,
+      "w": 14,
+      "h": 14
+    },
+    {
+      "id": "DM909-tune_bd",
+      "type": "stripFrame",
+      "spriteKey": "DM909Knob41",
+      "x": 121,
+      "y": 422,
+      "w": 12,
+      "h": 12
+    },
+    {
+      "id": "DM909-att_bd",
+      "type": "stripFrame",
+      "spriteKey": "DM909Knob41",
+      "x": 120,
+      "y": 447,
+      "w": 12,
+      "h": 12
+    },
+    {
+      "id": "DM909-level_bd",
+      "type": "stripFrame",
+      "spriteKey": "DM909Knob41",
+      "x": 141,
+      "y": 422,
+      "w": 12,
+      "h": 12
+    },
+    {
+      "id": "DM909-dec_bd",
+      "type": "stripFrame",
+      "spriteKey": "DM909Knob41",
+      "x": 140,
+      "y": 447,
+      "w": 12,
+      "h": 12
+    },
+    {
+      "id": "DM909-tune_sd",
+      "type": "stripFrame",
+      "spriteKey": "DM909Knob41",
+      "x": 162,
+      "y": 421,
+      "w": 12,
+      "h": 12
+    },
+    {
+      "id": "DM909-tone_sd",
+      "type": "stripFrame",
+      "spriteKey": "DM909Knob41",
+      "x": 162,
+      "y": 447,
+      "w": 12,
+      "h": 12
+    },
+    {
+      "id": "DM909-level_sd",
+      "type": "stripFrame",
+      "spriteKey": "DM909Knob41",
+      "x": 183,
+      "y": 422,
+      "w": 12,
+      "h": 12
+    },
+    {
+      "id": "DM909-snap_sd",
+      "type": "stripFrame",
+      "spriteKey": "DM909Knob41",
+      "x": 183,
+      "y": 447,
+      "w": 12,
+      "h": 12
+    },
+    {
+      "id": "DM909-tune_lt",
+      "type": "stripFrame",
+      "spriteKey": "DM909Knob41",
+      "x": 204,
+      "y": 421,
+      "w": 12,
+      "h": 12
+    },
+    {
+      "id": "DM909-level_lt",
+      "type": "stripFrame",
+      "spriteKey": "DM909Knob41",
+      "x": 224,
+      "y": 421,
+      "w": 12,
+      "h": 12
+    },
+    {
+      "id": "DM909-dec_lt",
+      "type": "stripFrame",
+      "spriteKey": "DM909Knob41",
+      "x": 204,
+      "y": 447,
+      "w": 12,
+      "h": 12
+    },
+    {
+      "id": "DM909-dec_mt",
+      "type": "stripFrame",
+      "spriteKey": "DM909Knob41",
+      "x": 245,
+      "y": 446,
+      "w": 12,
+      "h": 12
+    },
+    {
+      "id": "DM909-level_mt",
+      "type": "stripFrame",
+      "spriteKey": "DM909Knob41",
+      "x": 266,
+      "y": 421,
+      "w": 12,
+      "h": 12
+    },
+    {
+      "id": "DM909-tune_mt",
+      "type": "stripFrame",
+      "spriteKey": "DM909Knob41",
+      "x": 246,
+      "y": 421,
+      "w": 12,
+      "h": 12
+    },
+    {
+      "id": "DM909-tune_ht",
+      "type": "stripFrame",
+      "spriteKey": "DM909Knob41",
+      "x": 288,
+      "y": 421,
+      "w": 12,
+      "h": 12
+    },
+    {
+      "id": "DM909-dec_ht",
+      "type": "stripFrame",
+      "spriteKey": "DM909Knob41",
+      "x": 287,
+      "y": 447,
+      "w": 12,
+      "h": 12
+    },
+    {
+      "id": "DM909-level_ht",
+      "type": "stripFrame",
+      "spriteKey": "DM909Knob41",
+      "x": 308,
+      "y": 421,
+      "w": 12,
+      "h": 12
+    },
+    {
+      "id": "DM909-level_rs",
+      "type": "stripFrame",
+      "spriteKey": "DM909Knob41",
+      "x": 329,
+      "y": 421,
+      "w": 12,
+      "h": 12
+    },
+    {
+      "id": "DM909-level_cp",
+      "type": "stripFrame",
+      "spriteKey": "DM909Knob41",
+      "x": 349,
+      "y": 421,
+      "w": 12,
+      "h": 12
+    },
+    {
+      "id": "DM909-level_oh",
+      "type": "stripFrame",
+      "spriteKey": "DM909Knob41",
+      "x": 391,
+      "y": 422,
+      "w": 12,
+      "h": 12
+    },
+    {
+      "id": "DM909-dec_oh",
+      "type": "stripFrame",
+      "spriteKey": "DM909Knob41",
+      "x": 391,
+      "y": 446,
+      "w": 12,
+      "h": 12
+    },
+    {
+      "id": "DM909-dec_ch",
+      "type": "stripFrame",
+      "spriteKey": "DM909Knob41",
+      "x": 371,
+      "y": 446,
+      "w": 12,
+      "h": 12
+    },
+    {
+      "id": "DM909-level_cc",
+      "type": "stripFrame",
+      "spriteKey": "DM909Knob41",
+      "x": 413,
+      "y": 421,
+      "w": 12,
+      "h": 12
+    },
+    {
+      "id": "DM909-level_rc",
+      "type": "stripFrame",
+      "spriteKey": "DM909Knob41",
+      "x": 434,
+      "y": 421,
+      "w": 12,
+      "h": 12
+    },
+    {
+      "id": "DM909-tune_cc",
+      "type": "stripFrame",
+      "spriteKey": "DM909Knob41",
+      "x": 414,
+      "y": 447,
+      "w": 12,
+      "h": 12
+    },
+    {
+      "id": "DM909-tune_rc",
+      "type": "stripFrame",
+      "spriteKey": "DM909Knob41",
+      "x": 434,
+      "y": 447,
+      "w": 12,
+      "h": 12
+    },
+    {
+      "id": "DM909-light-bd",
+      "type": "stripFrame",
+      "spriteKey": "DM909light_1",
+      "x": 119,
+      "y": 469,
+      "w": 6,
+      "h": 6
+    },
+    {
+      "id": "DM909-light-sd",
+      "type": "stripFrame",
+      "spriteKey": "DM909light_1",
+      "x": 161,
+      "y": 469,
+      "w": 6,
+      "h": 6
+    },
+    {
+      "id": "DM909-light-lt",
+      "type": "stripFrame",
+      "spriteKey": "DM909light_1",
+      "x": 204,
+      "y": 469,
+      "w": 6,
+      "h": 6
+    },
+    {
+      "id": "DM909-light-mt",
+      "type": "stripFrame",
+      "spriteKey": "DM909light_1",
+      "x": 246,
+      "y": 469,
+      "w": 6,
+      "h": 6
+    },
+    {
+      "id": "DM909-light-ht",
+      "type": "stripFrame",
+      "spriteKey": "DM909light_1",
+      "x": 288,
+      "y": 469,
+      "w": 6,
+      "h": 6
+    },
+    {
+      "id": "DM909-light-rs",
+      "type": "stripFrame",
+      "spriteKey": "DM909light_1",
+      "x": 329,
+      "y": 469,
+      "w": 6,
+      "h": 6
+    },
+    {
+      "id": "DM909-light-cp",
+      "type": "stripFrame",
+      "spriteKey": "DM909light_1",
+      "x": 358,
+      "y": 469,
+      "w": 6,
+      "h": 6
+    },
+    {
+      "id": "DM909-light-ch",
+      "type": "stripFrame",
+      "spriteKey": "DM909light_1",
+      "x": 372,
+      "y": 469,
+      "w": 6,
+      "h": 6
+    },
+    {
+      "id": "DM909-light-oh",
+      "type": "stripFrame",
+      "spriteKey": "DM909light_1",
+      "x": 400,
+      "y": 469,
+      "w": 6,
+      "h": 6
+    },
+    {
+      "id": "DM909-light-cc",
+      "type": "stripFrame",
+      "spriteKey": "DM909light_1",
+      "x": 414,
+      "y": 469,
+      "w": 6,
+      "h": 6
+    },
+    {
+      "id": "DM909-light-rc",
+      "type": "stripFrame",
+      "spriteKey": "DM909light_1",
+      "x": 442,
+      "y": 469,
+      "w": 6,
+      "h": 6
+    }
+  ]
+}
